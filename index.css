@@ -1,20 +1,31 @@
 body {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.827);
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 10px;
 }
 ul {
+    color: black;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
-
+    box-shadow: rgba(0, 0, 0, 0.688);
+    border-bottom: 50px solid rgb(83, 52, 52);
+    backdrop-filter: blur(10px);
+    background-color: brown;
+    
 }
+
+
 a {
     color: white;
     text-decoration: none;
-
+    background-image: rgba(0, 0, 0, 0.407) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.468);
+    backdrop-filter: blur(10px);
+    
 }
 
 header img{
@@ -31,14 +42,15 @@ h1 {
 }
 
 footer img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 0%;
-    flex-direction: column;
+    width: 60px;
+    height: 60px;
+   
 }
 
 .container {
+    align-items: center;
     padding: 0px 50px;
+
 }
 
 nav a:hover {
@@ -46,5 +58,20 @@ nav a:hover {
 }
 H6 {
     font-size: 110%;
+}
+
+footer section {
+    width: 70px;
+    height: 60px;
+    margin-bottom: 0%   ;
+    flex-direction: column;
+}
+.section {
+    margin-bottom: auto;
+    flex-direction: column;
+    margin-bottom: 40%;
+    align-items: center;
+    
+    
 }
 
